@@ -6,8 +6,9 @@ class ArrayList
       count += 1
       index = a[index]
     end
-    return count
+    count
   end
 end
 
-ArrayList.new.solution([1,4,-1,3,2])
+result = ArrayList.new.solution([1,4,-1,3,2])
+puts result
