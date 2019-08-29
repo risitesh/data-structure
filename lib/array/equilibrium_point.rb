@@ -1,4 +1,4 @@
-class EquilibiumPoint
+class EquilibriumPoint
   def solution(arr)
     left_sum = 0
     sum = arr.reduce(:+)
